@@ -112,11 +112,11 @@ public class Ball implements GameConstants {
         private Ball ballTimer;
 
         public gameTimerTask(Ball ball) {
-            // TODO Auto-generated constructor stub
+            
             this.ballTimer = ball;
         }
         public void run() {
-            // TODO Auto-generated method stub
+            
             ballTimer.dRadius=-1;
         }
     }
